@@ -1,16 +1,97 @@
-# React + Vite
+# 🌿 Frame – Nature Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Nature Image Gallery built using **React.js** and CSS. This project was developed as a hands-on learning experience to practice React fundamentals and build a real-world frontend application.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://image-gallery-react-black-eight.vercel.app/
 
-## React Compiler
+## 📌 About The Project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Frame is a simple and elegant image gallery that showcases beautiful nature photographs with their titles and descriptions.
 
-## Expanding the Oxlint configuration
+The project focuses on understanding React concepts such as components, props, arrays, and the `map()` method through practical implementation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ✨ Features
+
+- **Reusable Components:** Created reusable Image Card components to display images.
+- **Props:** Passed image details from parent components to child components.
+- **Dynamic Rendering:** Used JavaScript `map()` to display multiple image cards dynamically.
+- **Array of Objects:** Stored image URLs, titles, and descriptions in an array of objects.
+- **Search Functionality:** Search images using their titles.
+- **Responsive Design:** Designed using CSS Grid and media queries for different screen sizes.
+- **React Fragments:** Used React Fragments to avoid unnecessary DOM elements.
+- **Clean UI:** Added hover effects, modern typography, and a professional layout.
+
+## 🛠️ Technologies Used
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
+
+## 📂 Project Structure
+
+```text
+MyGallery/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── ImageCard.jsx
+│   │   └── Footer.jsx
+│   ├── images/
+│   ├── App.jsx
+│   └── style.css
+├── index.html
+└── package.json
+```
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Navigate to the project folder:
+
+```bash
+cd MyGallery
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📚 What I Learned
+
+Through this project, I gained practical experience in:
+
+- Understanding React component architecture.
+- Creating and reusing functional components.
+- Passing and accessing data using props.
+- Working with arrays of objects.
+- Dynamically rendering UI using the `map()` method.
+- Using React `useState` for search functionality.
+- Styling and making React applications responsive.
+
+## 🎯 Project Goal
+
+To strengthen my understanding of React fundamentals by building a clean, reusable, and responsive image gallery application.
+
+---
+
+**Developed with ❤️ using React.js**
+Thank You for visiting!
